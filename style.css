@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #28282B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 30px 15px;
+    background-color: #00000077;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-numeric: slashed-zero;
+    border-radius: 2%;
+
+}
+#display{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 2.4rem;
+    color: white;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.calculatorButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+
+.calculatorButtons input{
+    font-size: 1.5rem;
+    width: 60px ;
+    height: 60px;
+    margin: 6px;
+    background-color:#28282B;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calculatorButtons input:hover{
+    background-color: #202022;
+}
+
+
+#AC{
+    color: #F5761A;
+}
+#DE{
+    color: #F5761A;
+}
+#signMod{
+    color: #F5761A;
+}
+#signDivide{
+    color: #F5761A;
+}
+#signMul{
+    color: #F5761A;
+}
+#signSub{
+    color:#F5761A;
+}
+#signAdd{
+    color: #F5761A;
+}
+
+
+
+#signEqual{
+    background-color: #F5761A;
+}
